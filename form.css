@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    
+}
+h1::after{
+    content:'';
+    transform: scaleX(0.190);
+    display: inline-block;          
+    height:10px;
+    width:100%;
+   
+    transform-origin: center;
+    background-color: orange;
+}
+/* h1:hover::after{
+    transform: scaleX(1);
+    transform-origin: right;
+} */
+
+.form{
+ padding: 8px 14px;
+ background-color:white;
+ border: 10px solid yellow;;
+}
+input[type="text"]{
+    width:90%;
+    padding:12px 20px;
+    margin: 15px ;
+    border:3px solid gray;
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+ button[type="submit"]{
+    width:90%;
+    margin:20px;
+    padding:12px 18px;
+    border:3px solid gray;
+    border-radius: 3px;
+    background-color: blue;
+    color:white;
+    font-size: larger;
+    cursor: pointer;
+    
+ }
+ label[for]{
+    text-decoration: solid;
+    font-size: larger;
+    
+ }
+
+
+
